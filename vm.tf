@@ -42,7 +42,6 @@ resource "vsphere_virtual_machine" "vm" {
       timeout     = "2m"
   }
     inline = [
-        "hostname",
 	"mkdir /Users/kpkim/desktop/abc",
     ]
   }
